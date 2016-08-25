@@ -74,3 +74,6 @@ hr{
 	border-radius: 50%;
 }
 		/*animaciones*/
+img.integrantes:hover{
+	opacity: 0.4;
+}
