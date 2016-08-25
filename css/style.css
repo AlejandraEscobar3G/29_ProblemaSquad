@@ -1,7 +1,7 @@
 .container-fluid{
 	padding: 0 !important;
 }
-nav{
+nav, h2{
 	margin: 0 !important;
 }
 		/*Menu*/
@@ -25,6 +25,15 @@ li a, div.navbar-header a{
 .pd{
 	padding: 5% 4%;
 }
+.pd2{
+	padding: 1% 5%;
+}
+.pd-gral{
+	padding: 3%;
+}
+.pd-chico{
+	padding: 2%;
+}
 		/*Section comunicacion*/
 .fondo{
 	background-image: url("../img/header.jpg");
@@ -43,4 +52,24 @@ hr{
 .fondo2{
 	background-color: #bd538d;
 	padding: 3%;
+}
+.img_altura{
+	height: 250px;
+}
+		/*section mejoramos*/
+.fondo_row{
+	background-color: #CFE2F3;
+}
+.img_result{
+	height: 340px;
+	width: 100%;
+}
+.img_radius{
+	border-radius: 50px;
+}
+		/*footer*/
+.integrantes{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
 }
