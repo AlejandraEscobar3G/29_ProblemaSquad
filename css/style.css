@@ -1,6 +1,9 @@
 .container-fluid{
 	padding: 0 !important;
 }
+nav{
+	margin: 0 !important;
+}
 		/*Menu*/
 .menu{
 	background-color: #07336E;
@@ -11,8 +14,33 @@ li a, div.navbar-header a{
 .icon-bar{
 	border: 1px solid silver;
 }
+		/*Texto*/
+.text-white{
+	color: white;
+}
+.text-blue{
+	color: #07336E; 
+}
+		/*Margenes*/
+.pd{
+	padding: 5% 4%;
+}
 		/*Section comunicacion*/
 .fondo{
 	background-image: url("../img/header.jpg");
 	background-size: 100% 100%;
+}
+.img{
+	padding: 3%;
+	width: 100%;
+	height: 100%;
+}
+hr{
+	width: 90%;
+
+}
+		/*section problemas*/
+.fondo2{
+	background-color: #bd538d;
+	padding: 3%;
 }
